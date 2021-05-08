@@ -84,7 +84,7 @@ table thead th {
   padding: 1rem 2rem;
   text-align: left;
 }
-table tr {
+table tbody tr {
     opacity: 0.7;
 }
 table tr:hover {
@@ -94,9 +94,21 @@ table tbody td {
   background: #fff;
   padding: 1rem 2rem;
 }
+td.description {
+    color: var(--dark-blue);
+}
+td.income {
+    color: #12a454;
+}
+td.expense {
+    color: #e92929;
+}
 
 /* FOOTER ======================================================*/
 footer {
   text-align: center;
   font-weight: 100;
+  padding: 4rem 0 2rem;
+  color: var(--dark-blue);
+  opacity:0.6
 }
