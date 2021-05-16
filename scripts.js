@@ -216,3 +216,5 @@ const App = {
 };
 
 App.init();
+
+//Comentário
