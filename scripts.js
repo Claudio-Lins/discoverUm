@@ -102,7 +102,7 @@ const DOM = {
     const CSSclass = transaction.amount > 0 ? "income" : "expense";
     const amount = Utils.formatCurrency(transaction.amount);
     const html = `
-              <td class="descriptio">${transaction.description}</td>
+              <td class="description">${transaction.description}</td>
               <td class="${CSSclass}">${amount}</td>
               <td class="date">${transaction.date}</td>
               <td>
